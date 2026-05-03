@@ -1,0 +1,25 @@
+- name: Premium Copper Cathodes
+  description: High-purity copper cathodes for industrial and manufacturing applications.
+  category: Metals
+  price: 7200
+  image: /assets/img/products/copper.jpg
+- name: Refined Sunflower Oil
+  description: Top-grade, non-GMO sunflower oil for culinary and commercial use.
+  category: Agriculture
+  price: 1100
+  image: /assets/img/products/sunflower-oil.jpg
+- name: White Refined Sugar ICUMSA 45
+  description: Ultra-refined sugar for food and beverage industries.
+  category: Food Ingredients
+  price: 650
+  image: /assets/img/products/sugar.jpg
+- name: Urea 46% Prilled
+  description: High-quality fertilizer for agricultural productivity.
+  category: Fertilizers
+  price: 410
+  image: /assets/img/products/urea.jpg
+- name: Aluminum Ingots
+  description: Premium-grade aluminum ingots for manufacturing and export.
+  category: Metals
+  price: 2300
+  image: /assets/img/products/aluminum.jpg

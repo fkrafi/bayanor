@@ -80,61 +80,19 @@ description: "UAE-based premium trading house specialising in import/export, B2B
   </div>
 </section>
 
+
 <!-- ============================================================
-     Services / Business Categories
+     Products Section (Link)
 ============================================================ -->
-<section class="services section--lg" id="services">
+<section class="products-link section--lg" id="products">
   <div class="container">
     <div class="section-header section-header--center">
       <p class="section-label reveal-fade">Our Portfolio</p>
-      <h2 class="section-title reveal-fade" data-delay="80">Business Categories</h2>
+      <h2 class="section-title reveal-fade" data-delay="80">Featured Products</h2>
       <p class="section-subtitle reveal-fade" data-delay="160">
-        Five premium product verticals curated for quality, consistency, and global demand.
+        Explore our premium product range for global trade and B2B excellence.
       </p>
-    </div>
-
-    <div class="services__grid">
-
-      <div class="service-card">
-        <div class="service-card__icon" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-        </div>
-        <h3 class="service-card__title">Baby &amp; Lifestyle</h3>
-        <p class="service-card__desc">Premium infant and lifestyle essentials curated for modern families. Safety-certified, globally sourced, and reliably distributed.</p>
-      </div>
-
-      <div class="service-card">
-        <div class="service-card__icon" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-        </div>
-        <h3 class="service-card__title">Home &amp; Living</h3>
-        <p class="service-card__desc">Sophisticated home products for contemporary living spaces. From functional essentials to premium décor pieces for everyday life.</p>
-      </div>
-
-      <div class="service-card">
-        <div class="service-card__icon" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-        </div>
-        <h3 class="service-card__title">Decorative &amp; Gift Items</h3>
-        <p class="service-card__desc">Artisanal decorative pieces and luxury gifting solutions. Curated collections for corporate gifting and premium retail distribution.</p>
-      </div>
-
-      <div class="service-card">
-        <div class="service-card__icon" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-        </div>
-        <h3 class="service-card__title">Cleaning &amp; Laundry Essentials</h3>
-        <p class="service-card__desc">High-performance household care and cleaning solutions. Trusted brands and private-label options for large-scale B2B distribution.</p>
-      </div>
-
-      <div class="service-card">
-        <div class="service-card__icon" aria-hidden="true">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-        </div>
-        <h3 class="service-card__title">General Trading Solutions</h3>
-        <p class="service-card__desc">Comprehensive B2B sourcing, procurement, and distribution partnerships. Flexible solutions tailored to your market requirements.</p>
-      </div>
-
+      <a href="{{ site.baseurl }}/products/" class="btn btn--gold btn--lg reveal-fade" data-delay="240">View All Products</a>
     </div>
   </div>
 </section>

@@ -111,6 +111,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  padding-bottom: 52px;
   transition: background-color var(--transition-base), color var(--transition-base);
 }
 
@@ -1378,7 +1379,7 @@ h1, h2, h3, h4, h5, h6 {
    ============================================================ */
 #back-to-top {
   position: fixed;
-  bottom: var(--space-8);
+  bottom: calc(var(--space-8) + 52px);
   right: var(--space-8);
   width: 44px;
   height: 44px;
@@ -1571,7 +1572,32 @@ h1, h2, h3, h4, h5, h6 {
 .footer__legal-ornament { color: var(--color-gold); }
 
 /* ============================================================
-   16. Scroll Reveal Animations
+  16.5 Under Construction Banner
+  ============================================================ */
+.construction-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: linear-gradient(90deg, #7f5a25 0%, #c8a96b 50%, #7f5a25 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.28);
+}
+
+.construction-banner p {
+  margin: 0;
+  padding: 0.62rem 1rem;
+  text-align: center;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #111111;
+}
+
+/* ============================================================
+  17. Scroll Reveal Animations
    ============================================================ */
 .reveal-fade {
   opacity: 0;
@@ -1610,7 +1636,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ============================================================
-   17. Responsive
+  18. Responsive
    ============================================================ */
 @media (max-width: 1024px) {
   .footer__grid {
@@ -1666,8 +1692,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #back-to-top {
-    bottom: var(--space-4);
+    bottom: calc(var(--space-4) + 52px);
     right: var(--space-4);
+  }
+
+  .construction-banner p {
+    font-size: 0.72rem;
+    padding: 0.56rem 0.8rem;
   }
 }
 

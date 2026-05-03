@@ -33,6 +33,15 @@
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/assets/images/favicon.svg" />
 
+  <!-- PWA Support -->
+  <meta name="theme-color" content="#C8A96B" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/icon-192.png" />
+  <link rel="manifest" href="{{ site.baseurl }}/manifest.json" />
+
   <!-- Google Fonts — Premium Typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -74,5 +83,20 @@
 
   <!-- Scripts -->
   <script src="{{ site.baseurl }}/assets/js/script.js" defer></script>
+
+  <!-- PWA Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('{{ site.baseurl }}/service-worker.js', {
+          scope: '{{ site.baseurl }}/'
+        }).then((registration) => {
+          console.log('Service Worker registered:', registration);
+        }).catch((error) => {
+          console.log('Service Worker registration failed:', error);
+        });
+      });
+    }
+  </script>
 </body>
 </html>

@@ -3,89 +3,89 @@
   description: Ultra-soft, hypoallergenic diapers for newborns and infants. Wetness indicator and breathable design.
   category: Baby & Lifestyle
   unit: Per Carton
-  image: https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&h=280&fit=crop
 
 - name: Baby Wipes (Sensitive)
   description: Alcohol-free, fragrance-free baby wipes for sensitive skin. Dermatologically tested.
   category: Baby & Lifestyle
   unit: Per Pack
-  image: https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1586281278159-dfe7abdd1c60?w=400&h=280&fit=crop
 
 - name: Infant Formula Milk
   description: Nutritionally complete stage-1 formula milk for babies 0–6 months. WHO-compliant.
   category: Baby & Lifestyle
   unit: Per Unit
-  image: https://images.unsplash.com/photo-1632649027169-c1b598f6fbf6?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1586281278159-dfe7abdd1c60?w=400&h=280&fit=crop
 
 - name: Baby Bath & Body Set
   description: Gentle tear-free shampoo and body wash set. Paediatrician-tested for daily use.
   category: Baby & Lifestyle
   unit: Per Set
-  image: https://images.unsplash.com/photo-1600369671236-e74521d5ce7d?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1587554801864-cd6894c49c70?w=400&h=280&fit=crop
 
 # Home & Living
 - name: Premium Bedding Set
   description: 100% Egyptian cotton duvet cover and pillowcase set. 600 thread count, hotel quality.
   category: Home & Living
   unit: Per Set
-  image: https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=400&h=280&fit=crop
 
 - name: Scented Candle Collection
   description: Hand-poured soy wax candles with premium fragrance oils. 50-hour burn time.
   category: Home & Living
   unit: Per Set
-  image: https://images.unsplash.com/photo-1602178623557-e0ee7da78cb1?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=400&h=280&fit=crop
 
 - name: Ceramic Kitchen Set
   description: Modern ceramic dinnerware set for 6. Dishwasher safe with minimalist design.
   category: Home & Living
   unit: Per Set
-  image: https://images.unsplash.com/photo-1556909211-36987daf7b4d?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1589985592536-6a556f0dbbf9?w=400&h=280&fit=crop
 
 # Decorative & Gift Items
 - name: Luxury Gift Hamper
   description: Curated premium gift hamper for corporate and personal gifting. Fully customisable.
   category: Decorative & Gift Items
   unit: Per Hamper
-  image: https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1513651857529-ef36f7e77060?w=400&h=280&fit=crop
 
 - name: Ornamental Vase Set
   description: Handcrafted ceramic vases with gold trim. Perfect centrepiece for modern interiors.
   category: Decorative & Gift Items
   unit: Per Set
-  image: https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=280&fit=crop
 
 - name: Artisan Candle Gift Box
   description: Beautifully packaged artisan candle gift box with ribbon wrap. Ideal for bulk orders.
   category: Decorative & Gift Items
   unit: Per Box
-  image: https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1612114956481-cc003fedd35a?w=400&h=280&fit=crop
 
 # Cleaning & Laundry Essentials
 - name: Industrial Floor Cleaner
   description: Heavy-duty multi-surface floor cleaner. Antibacterial formula, pleasant fresh scent.
   category: Cleaning & Laundry Essentials
   unit: Per 5L Drum
-  image: https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&h=280&fit=crop
 
 - name: Concentrated Laundry Detergent
   description: High-efficiency concentrated liquid detergent. Works in cold and hot water. Bulk available.
   category: Cleaning & Laundry Essentials
   unit: Per 10L Drum
-  image: https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&h=280&fit=crop
 
 - name: Antibacterial Hand Soap
   description: Professional-grade antibacterial hand wash. pH-balanced with moisturising aloe vera.
   category: Cleaning & Laundry Essentials
   unit: Per Carton
-  image: https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1629526489359-39b69e98b643?w=400&h=280&fit=crop
 
 # General Trading
 - name: Premium White Rice (Basmati)
   description: Extra-long grain aged Basmati rice. 1121 variety. B2B bulk supply available.
   category: General Trading
   unit: Per MT
-  image: https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1586085566185-baf359dd7b5e?w=400&h=280&fit=crop
 
 - name: Refined Sunflower Oil
   description: Top-grade, non-GMO sunflower oil for culinary and commercial use.
@@ -97,4 +97,4 @@
   description: Ultra-refined sugar for food and beverage industries. B2B bulk supply.
   category: General Trading
   unit: Per MT
-  image: https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=400&h=280&fit=crop
+  image: https://images.unsplash.com/photo-1599599810694-b5ac4dd19fb1?w=400&h=280&fit=crop

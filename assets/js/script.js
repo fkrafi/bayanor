@@ -160,7 +160,7 @@
   ============================================================ */
   (function initStaggerChildren() {
     const grids = document.querySelectorAll(
-      '.services__grid, .why-us__grid, .about__stats, .footer__grid'
+      '.about__stats, .footer__grid'
     );
 
     grids.forEach(function (grid) {

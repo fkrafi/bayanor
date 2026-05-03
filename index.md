@@ -98,61 +98,6 @@ description: "UAE-based premium trading house specialising in import/export, B2B
 </section>
 
 <!-- ============================================================
-     Why Choose BAYANOR
-============================================================ -->
-<section class="why-us section--lg" id="why-us">
-  <div class="container">
-    <div class="section-header section-header--center">
-      <p class="section-label reveal-fade">Our Advantage</p>
-      <h2 class="section-title reveal-fade" data-delay="80">Why BAYANOR</h2>
-      <p class="section-subtitle reveal-fade" data-delay="160">
-        Six pillars that define our approach to premium global trade.
-      </p>
-    </div>
-
-    <div class="why-us__grid">
-
-      <div class="why-card">
-        <div class="why-card__number">01</div>
-        <h3 class="why-card__title">Trusted Global Sourcing</h3>
-        <p class="why-card__desc">Rigorous supplier vetting and long-term manufacturer relationships ensure authentic, quality-assured products across all categories.</p>
-      </div>
-
-      <div class="why-card">
-        <div class="why-card__number">02</div>
-        <h3 class="why-card__title">UAE Strategic Logistics</h3>
-        <p class="why-card__desc">Operating from Dubai — the world's premier trade hub — gives BAYANOR unmatched access to regional and global shipping corridors.</p>
-      </div>
-
-      <div class="why-card">
-        <div class="why-card__number">03</div>
-        <h3 class="why-card__title">Premium Quality Standards</h3>
-        <p class="why-card__desc">Every product in our portfolio meets international safety and quality benchmarks before entering our distribution network.</p>
-      </div>
-
-      <div class="why-card">
-        <div class="why-card__number">04</div>
-        <h3 class="why-card__title">Reliable Supply Chain</h3>
-        <p class="why-card__desc">End-to-end visibility, consistent inventory management, and contingency planning ensure your supply chain never falters.</p>
-      </div>
-
-      <div class="why-card">
-        <div class="why-card__number">05</div>
-        <h3 class="why-card__title">B2B Partnership Focus</h3>
-        <p class="why-card__desc">We build lasting trade relationships with competitive pricing structures, flexible MOQs, and dedicated account support.</p>
-      </div>
-
-      <div class="why-card">
-        <div class="why-card__number">06</div>
-        <h3 class="why-card__title">Modern Trade Solutions</h3>
-        <p class="why-card__desc">Streamlined procurement, digital documentation, and responsive communication make every trade interaction seamless.</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
      Global Presence
 ============================================================ -->
 <section class="global section--lg" id="global">

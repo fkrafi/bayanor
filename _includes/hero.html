@@ -1,0 +1,99 @@
+<!-- BAYANOR — Cinematic Hero Section -->
+<section class="hero" id="home" aria-label="Hero section">
+
+  <!-- Arabic Geometric Pattern Overlay -->
+  <div class="hero__pattern" aria-hidden="true">
+    <svg class="hero__pattern-svg" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+      <!-- Geometric Islamic pattern elements -->
+      <defs>
+        <pattern id="geo-pattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+          <polygon points="40,0 80,20 80,60 40,80 0,60 0,20" fill="none" stroke="rgba(200,169,107,0.08)" stroke-width="0.5"/>
+          <polygon points="40,10 70,25 70,55 40,70 10,55 10,25" fill="none" stroke="rgba(200,169,107,0.05)" stroke-width="0.5"/>
+          <line x1="40" y1="0" x2="40" y2="80" stroke="rgba(200,169,107,0.03)" stroke-width="0.5"/>
+          <line x1="0" y1="40" x2="80" y2="40" stroke="rgba(200,169,107,0.03)" stroke-width="0.5"/>
+        </pattern>
+      </defs>
+      <rect width="800" height="800" fill="url(#geo-pattern)"/>
+
+      <!-- Decorative corner accents -->
+      <g opacity="0.15">
+        <polygon points="0,0 120,0 0,120" fill="none" stroke="#C8A96B" stroke-width="0.8"/>
+        <polygon points="800,0 680,0 800,120" fill="none" stroke="#C8A96B" stroke-width="0.8"/>
+        <polygon points="0,800 120,800 0,680" fill="none" stroke="#C8A96B" stroke-width="0.8"/>
+        <polygon points="800,800 680,800 800,680" fill="none" stroke="#C8A96B" stroke-width="0.8"/>
+      </g>
+
+      <!-- Central decorative motif -->
+      <g transform="translate(400,400)" opacity="0.06">
+        <circle r="150" fill="none" stroke="#C8A96B" stroke-width="0.8"/>
+        <circle r="120" fill="none" stroke="#C8A96B" stroke-width="0.5"/>
+        <circle r="90" fill="none" stroke="#C8A96B" stroke-width="0.5"/>
+        <line x1="-150" y1="0" x2="150" y2="0" stroke="#C8A96B" stroke-width="0.5"/>
+        <line x1="0" y1="-150" x2="0" y2="150" stroke="#C8A96B" stroke-width="0.5"/>
+        <line x1="-106" y1="-106" x2="106" y2="106" stroke="#C8A96B" stroke-width="0.5"/>
+        <line x1="106" y1="-106" x2="-106" y2="106" stroke="#C8A96B" stroke-width="0.5"/>
+      </g>
+    </svg>
+  </div>
+
+  <!-- Glow Orbs -->
+  <div class="hero__glow hero__glow--1" aria-hidden="true"></div>
+  <div class="hero__glow hero__glow--2" aria-hidden="true"></div>
+
+  <!-- Hero Content -->
+  <div class="container">
+    <div class="hero__content">
+
+      <!-- Overline -->
+      <div class="hero__overline reveal-fade" data-delay="0">
+        <span class="hero__overline-line"></span>
+        <span class="hero__overline-text">DUBAI, UNITED ARAB EMIRATES</span>
+        <span class="hero__overline-line"></span>
+      </div>
+
+      <!-- Headline -->
+      <h1 class="hero__headline reveal-fade" data-delay="100">
+        <span class="hero__headline-line">GLOBAL TRADE.</span>
+        <span class="hero__headline-line hero__headline-line--gold">REFINED.</span>
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="hero__subheadline reveal-fade" data-delay="200">
+        Premium sourcing and distribution solutions<br />
+        from the UAE to global markets.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="hero__actions reveal-fade" data-delay="300">
+        <a href="{{ site.baseurl }}/about/" class="btn btn--outline">Explore Company</a>
+        <a href="{{ site.baseurl }}/contact/" class="btn btn--gold">Contact Us</a>
+      </div>
+
+      <!-- Trust Stats -->
+      <div class="hero__stats reveal-fade" data-delay="400">
+        <div class="hero__stat">
+          <span class="hero__stat-number">50+</span>
+          <span class="hero__stat-label">Global Suppliers</span>
+        </div>
+        <div class="hero__stat-divider" aria-hidden="true"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-number">5</span>
+          <span class="hero__stat-label">Product Categories</span>
+        </div>
+        <div class="hero__stat-divider" aria-hidden="true"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-number">20+</span>
+          <span class="hero__stat-label">Export Markets</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scroll Indicator -->
+  <div class="hero__scroll" aria-hidden="true">
+    <span class="hero__scroll-line"></span>
+    <span class="hero__scroll-text">SCROLL</span>
+  </div>
+
+</section>

@@ -1,0 +1,74 @@
+# BAYANOR — Jekyll Configuration
+# UAE-based Premium Global Trading Company
+
+title: "BAYANOR"
+tagline: "Global Trade. Refined."
+description: "UAE-based premium trading house specializing in import/export, B2B distribution, and global sourcing of lifestyle, home, and essential products."
+url: "https://fkrafi.github.io"
+baseurl: "/bayanor"
+lang: "en"
+
+# Author / Company
+author:
+  name: "BAYANOR Trading"
+  email: "info@bayanor.com"
+  location: "Dubai, UAE"
+
+# SEO & Open Graph
+logo: "/assets/images/og-image.png"
+og_image: "/assets/images/og-image.png"
+twitter:
+  username: bayanor
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: null
+permalink: pretty
+
+# Sass
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Plugins (GitHub Pages compatible)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Navigation
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Services"
+    url: "/#services"
+  - title: "Contact"
+    url: "/contact/"
+
+# Business Categories
+categories:
+  - name: "Baby & Lifestyle"
+    icon: "✦"
+    description: "Premium infant and lifestyle essentials curated for modern families."
+  - name: "Home & Living"
+    icon: "✦"
+    description: "Sophisticated home products for contemporary living spaces."
+  - name: "Decorative & Gift Items"
+    icon: "✦"
+    description: "Artisanal decorative pieces and luxury gifting solutions."
+  - name: "Cleaning & Laundry Essentials"
+    icon: "✦"
+    description: "High-performance household care and cleaning solutions."
+  - name: "General Trading Solutions"
+    icon: "✦"
+    description: "Comprehensive B2B sourcing and distribution partnerships."

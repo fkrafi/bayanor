@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- Page Layout — Inner Pages -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero__inner">
+      {% if page.title %}
+        <h1 class="page-hero__title">{{ page.title }}</h1>
+      {% endif %}
+      {% if page.subtitle %}
+        <p class="page-hero__subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="page-content section">
+  <div class="container">
+    <div class="page-content__body">
+      {{ content }}
+    </div>
+  </div>
+</section>

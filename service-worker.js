@@ -3,12 +3,13 @@ layout: null
 permalink: /service-worker.js
 ---
 
-const CACHE_NAME = 'bayanor-v1';
+const CACHE_NAME = 'bayanor-v2';
 const urlsToCache = [
   '{{ site.baseurl }}/',
   '{{ site.baseurl }}/about/',
   '{{ site.baseurl }}/products/',
   '{{ site.baseurl }}/contact/',
+  '{{ site.baseurl }}/manifest.json',
   '{{ site.baseurl }}/assets/css/style.css',
   '{{ site.baseurl }}/assets/js/script.js'
 ];
@@ -17,7 +18,10 @@ const urlsToCache = [
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(urlsToCache);
+      // Use per-request caching so one failed URL does not abort SW installation.
+      return Promise.allSettled(
+        urlsToCache.map((url) => cache.add(url))
+      );
     })
   );
   self.skipWaiting();
@@ -42,6 +46,28 @@ self.addEventListener('activate', (event) => {
 // Fetch event — serve from cache, fallback to network
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') {
+    return;
+  }
+
+  const requestUrl = new URL(event.request.url);
+  const isSameOrigin = requestUrl.origin === self.location.origin;
+
+  if (!isSameOrigin) {
+    return;
+  }
+
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          const responseToCache = response.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
+          return response;
+        })
+        .catch(() => caches.match(event.request).then((cached) => cached || caches.match('{{ site.baseurl }}/')))
+    );
     return;
   }
 

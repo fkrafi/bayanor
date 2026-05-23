@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,7 +17,7 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/og-image.png" />
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/logo.jpeg" />
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:locale" content="en_US" />
 
@@ -25,21 +25,21 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{{ site.title }} | {{ site.tagline }}" />
   <meta name="twitter:description" content="{{ site.description }}" />
-  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/og-image.png" />
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/logo.jpeg" />
 
   <!-- Canonical -->
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/assets/images/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicon.png" />
 
   <!-- PWA Support -->
-  <meta name="theme-color" content="#C8A96B" />
+  <meta name="theme-color" content="#B59B6A" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
-  <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/icon-192.png" />
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/apple-touch-icon.png" />
   <link rel="manifest" href="{{ site.baseurl }}/manifest.json" />
 
   <!-- Google Fonts — Premium Typography -->
@@ -70,9 +70,9 @@
   {% include footer.html %}
 
   <!-- Under Construction Banner -->
-  <div class="construction-banner" role="status" aria-live="polite">
+  <output class="construction-banner" aria-live="polite">
     <p>This is a demo website. We are still under construction.</p>
-  </div>
+  </output>
 
   <!-- Back to Top -->
   <button id="back-to-top" aria-label="Back to top" title="Back to top">

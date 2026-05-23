@@ -2,14 +2,14 @@
   "name": "BAYANOR — Global Trade. Refined.",
   "short_name": "BAYANOR",
   "id": "/bayanor/",
-  "description": "UAE-based premium trading house specializing in import/export, B2B distribution, and global sourcing of lifestyle, home, and essential products.",
+  "description": "UAE-based premium trading house specializing in import/export, B2B distribution, and licensed business activities.",
   "start_url": "/bayanor/",
   "scope": "/bayanor/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
-  "background_color": "#0F0F0F",
-  "theme_color": "#C8A96B",
+  "background_color": "#EFEFEB",
+  "theme_color": "#B59B6A",
   "icons": [
     {
       "src": "/bayanor/assets/images/icon-192.png",
@@ -53,10 +53,10 @@
   ],
   "shortcuts": [
     {
-      "name": "View Products",
-      "short_name": "Products",
-      "description": "Browse our product portfolio",
-      "url": "/bayanor/products/",
+      "name": "Business Activities",
+      "short_name": "Activities",
+      "description": "Explore our business activities",
+      "url": "/bayanor/#activities",
       "icons": [
         {
           "src": "/bayanor/assets/images/icon-192.png",
@@ -66,9 +66,9 @@
       ]
     },
     {
-      "name": "Contact Us",
+      "name": "Contact",
       "short_name": "Contact",
-      "description": "Get in touch with BAYANOR",
+      "description": "Get in touch with BAYANOR trading team",
       "url": "/bayanor/contact/",
       "icons": [
         {

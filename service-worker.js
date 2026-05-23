@@ -3,10 +3,9 @@ layout: null
 permalink: /service-worker.js
 ---
 
-const CACHE_NAME = 'bayanor-v3';
+const CACHE_NAME = 'bayanor-v4';
 const urlsToCache = [
   '{{ site.baseurl }}/',
-  '{{ site.baseurl }}/contact/',
   '{{ site.baseurl }}/manifest.json',
   '{{ site.baseurl }}/assets/css/style.css',
   '{{ site.baseurl }}/assets/js/script.js'

@@ -25,34 +25,22 @@ description: "UAE-based premium trading house specialising in import/export, B2B
           </h2>
         </div>
         <p class="section-subtitle reveal-fade" data-delay="160">
-          BAYANOR is a Dubai-based premium trading company connecting global suppliers with regional and international markets. We combine strategic Middle Eastern positioning with rigorous quality standards to deliver reliable B2B distribution at scale.
+          BAYANOR is a Dubai-based trading company focused on licensed commercial activities that support modern business growth across digital commerce, trade services, consulting, and innovation.
         </p>
         <p class="section-subtitle reveal-fade" data-delay="200">
-          From e-commerce and general trading to software, consulting, and events, our licensed business activities are designed to support modern commercial growth.
+          Our operating model is built around clearly defined business activities, enabling clients and partners to engage the right service line with confidence and speed.
         </p>
 
         <div class="about__values reveal-fade" data-delay="280">
+          {% for activity in site.data.business_activities %}
           <div class="about__value-item">
             <span class="about__value-icon">✦</span>
             <div>
-              <p class="about__value-title">Trusted Sourcing Partner</p>
-              <p class="about__value-text">Verified global supplier network with strict quality vetting processes for every product category.</p>
+              <p class="about__value-title">{{ activity.name }}</p>
+              <p class="about__value-text">{{ activity.short_description }}</p>
             </div>
           </div>
-          <div class="about__value-item">
-            <span class="about__value-icon">✦</span>
-            <div>
-              <p class="about__value-title">Reliable Supply Chain</p>
-              <p class="about__value-text">End-to-end logistics coordination from manufacturer to distributor, ensuring on-time delivery.</p>
-            </div>
-          </div>
-          <div class="about__value-item">
-            <span class="about__value-icon">✦</span>
-            <div>
-              <p class="about__value-title">B2B Excellence</p>
-              <p class="about__value-text">Dedicated account management, competitive pricing, and flexible trade terms for business partners.</p>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
 
@@ -102,87 +90,6 @@ description: "UAE-based premium trading house specialising in import/export, B2B
         <p class="service-card__desc">{{ activity.description }}</p>
       </article>
       {% endfor %}
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     Global Presence
-============================================================ -->
-<section class="global section--lg" id="global">
-  <div class="container">
-    <div class="global__inner">
-
-      <!-- Map Visual -->
-      <div class="global__map reveal-slide-left">
-        <div class="global__map-container">
-          <!-- Minimal SVG world map outline -->
-          <svg class="global__map-svg" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" aria-label="World map showing BAYANOR global presence">
-            <g fill="none" stroke="rgba(200,169,107,0.25)" stroke-width="0.8">
-              <!-- Simplified continent outlines -->
-              <!-- North America -->
-              <path d="M 80 80 L 200 70 L 230 100 L 220 150 L 240 200 L 200 240 L 160 260 L 120 250 L 80 200 L 60 150 Z"/>
-              <!-- South America -->
-              <path d="M 160 280 L 210 270 L 230 300 L 220 380 L 190 430 L 160 420 L 140 360 L 150 310 Z"/>
-              <!-- Europe -->
-              <path d="M 420 60 L 500 50 L 520 80 L 510 120 L 480 140 L 440 130 L 410 100 Z"/>
-              <!-- Africa -->
-              <path d="M 440 160 L 510 150 L 540 200 L 530 280 L 500 360 L 460 370 L 420 300 L 410 220 Z"/>
-              <!-- Asia -->
-              <path d="M 530 50 L 700 40 L 780 80 L 800 140 L 760 180 L 700 200 L 620 190 L 560 160 L 530 100 Z"/>
-              <!-- Australia -->
-              <path d="M 720 280 L 820 270 L 850 320 L 830 370 L 770 380 L 720 340 Z"/>
-            </g>
-          </svg>
-
-          <!-- Animated dots -->
-          <div class="global__dot global__dot--uae"  title="UAE — BAYANOR HQ"></div>
-          <div class="global__dot global__dot--eu"   title="Europe"></div>
-          <div class="global__dot global__dot--us"   title="Americas"></div>
-          <div class="global__dot global__dot--as"   title="Asia Pacific"></div>
-          <div class="global__dot global__dot--af"   title="Africa"></div>
-        </div>
-
-        <!-- Region Tags -->
-        <div class="global__regions">
-          <div class="global__region"><span class="global__region-dot"></span>Middle East &amp; GCC</div>
-          <div class="global__region"><span class="global__region-dot"></span>Europe</div>
-          <div class="global__region"><span class="global__region-dot"></span>Asia Pacific</div>
-          <div class="global__region"><span class="global__region-dot"></span>Africa</div>
-        </div>
-      </div>
-
-      <!-- Content -->
-      <div class="global__content reveal-slide-right">
-        <div class="section-header">
-          <p class="section-label">Global Presence</p>
-          <h2 class="section-title">
-            Dubai at the<br />Centre of Trade
-          </h2>
-        </div>
-        <p class="section-subtitle">
-          Strategically headquartered in Dubai — the UAE's global trading capital — BAYANOR leverages world-class logistics infrastructure to serve markets across four continents.
-        </p>
-
-        <div class="global__highlight">
-          <div class="global__highlight-icon" aria-hidden="true">✦</div>
-          <div>
-            <p class="global__highlight-title">UAE — Strategic Trade Hub</p>
-            <p class="global__highlight-text">Jebel Ali Port, DXB Airport Cargo, and Dubai's free zone network provide unmatched global connectivity for our distribution operations.</p>
-          </div>
-        </div>
-
-        <br />
-
-        <div class="global__highlight">
-          <div class="global__highlight-icon" aria-hidden="true">✦</div>
-          <div>
-            <p class="global__highlight-title">20+ Active Export Markets</p>
-            <p class="global__highlight-text">From GCC retail chains to European distributors and Asian importers — BAYANOR serves diverse markets with consistent quality.</p>
-          </div>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>

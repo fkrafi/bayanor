@@ -48,8 +48,6 @@ exclude:
 nav_links:
   - title: "Home"
     url: "/"
-  - title: "Contact"
-    url: "/contact/"
 
 # Business Categories
 categories:

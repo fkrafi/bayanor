@@ -81,29 +81,6 @@
   })();
 
   /* ============================================================
-     2. Theme Toggle — Dark / Light
-  ============================================================ */
-  (function initThemeToggle() {
-    const toggleBtn = document.getElementById('theme-toggle');
-    const html      = document.documentElement;
-
-    if (!toggleBtn) return;
-
-    // Read persisted preference
-    const savedTheme = localStorage.getItem('bayanor-theme');
-    if (savedTheme) {
-      html.setAttribute('data-theme', savedTheme);
-    }
-
-    toggleBtn.addEventListener('click', function () {
-      const current = html.getAttribute('data-theme') || 'dark';
-      const next    = current === 'dark' ? 'light' : 'dark';
-      html.setAttribute('data-theme', next);
-      localStorage.setItem('bayanor-theme', next);
-    });
-  })();
-
-  /* ============================================================
      3. Scroll Reveal — IntersectionObserver
   ============================================================ */
   (function initScrollReveal() {

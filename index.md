@@ -35,8 +35,7 @@ description: "UAE-based premium trading house specialising in import/export, B2B
           {% for activity in site.data.business_activities %}
           <div class="about__value-item">
             <div class="about__value-top">
-              <span class="about__value-icon">✦</span>
-              <span class="about__value-pill">Activity {{ forloop.index }}</span>
+              <img src="{{ activity.image }}" alt="{{ activity.name }}" class="about__value-image" loading="lazy" />
             </div>
             <p class="about__value-title">{{ activity.name }}</p>
             <p class="about__value-text">{{ activity.short_description }}</p>

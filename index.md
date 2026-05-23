@@ -34,11 +34,12 @@ description: "UAE-based premium trading house specialising in import/export, B2B
         <div class="about__values reveal-fade" data-delay="280">
           {% for activity in site.data.business_activities %}
           <div class="about__value-item">
-            <span class="about__value-icon">✦</span>
-            <div>
-              <p class="about__value-title">{{ activity.name }}</p>
-              <p class="about__value-text">{{ activity.short_description }}</p>
+            <div class="about__value-top">
+              <span class="about__value-icon">✦</span>
+              <span class="about__value-pill">Activity {{ forloop.index }}</span>
             </div>
+            <p class="about__value-title">{{ activity.name }}</p>
+            <p class="about__value-text">{{ activity.short_description }}</p>
           </div>
           {% endfor %}
         </div>
@@ -64,32 +65,6 @@ description: "UAE-based premium trading house specialising in import/export, B2B
         </div>
       </div>
 
-    </div>
-  </div>
-</section>
-
-
-<!-- ============================================================
-     Business Activities Section
-============================================================ -->
-<section class="services section--lg" id="activities">
-  <div class="container">
-    <div class="section-header section-header--center">
-      <p class="section-label reveal-fade">Our Portfolio</p>
-      <h2 class="section-title reveal-fade" data-delay="80">Business Activities</h2>
-      <p class="section-subtitle reveal-fade" data-delay="160">
-        Explore all licensed business activities in one place.
-      </p>
-    </div>
-
-    <div class="services__grid">
-      {% for activity in site.data.business_activities %}
-      <article class="service-card reveal-fade" data-delay="{{ forloop.index0 | times: 40 }}">
-        <div class="service-card__icon" aria-hidden="true">✦</div>
-        <h3 class="service-card__title">{{ activity.name }}</h3>
-        <p class="service-card__desc">{{ activity.description }}</p>
-      </article>
-      {% endfor %}
     </div>
   </div>
 </section>

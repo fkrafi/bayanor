@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "BAYANOR | Global Trade. Refined."
-description: "UAE-based premium trading house specialising in import/export, B2B distribution, and global sourcing of lifestyle, home, and essential products."
+title: "BAYANOR | One Vision, Endless Possibilities"
+description: "UAE-based premium trading house delivering one clear vision through licensed business activities across trade, consulting, software, and innovation services."
 ---
 
 <!-- ============================================================
@@ -21,7 +21,7 @@ description: "UAE-based premium trading house specialising in import/export, B2B
         <div class="section-header">
           <p class="section-label reveal-fade">About BAYANOR</p>
           <h2 class="section-title reveal-fade" data-delay="80">
-            A UAE Trading<br />House Built on Trust
+            One Vision for<br />Modern Commerce
           </h2>
         </div>
         <p class="section-subtitle reveal-fade" data-delay="160">
@@ -44,26 +44,6 @@ description: "UAE-based premium trading house specialising in import/export, B2B
         </div>
       </div>
 
-      <!-- Right: Stats Cards -->
-      <div class="about__stats">
-        <div class="stat-card">
-          <div class="stat-card__number" data-count="50" data-suffix="+">50+</div>
-          <div class="stat-card__label">Global Suppliers</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-card__number" data-count="10">10</div>
-          <div class="stat-card__label">Business Activities</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-card__number" data-count="20" data-suffix="+">20+</div>
-          <div class="stat-card__label">Export Markets</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-card__number" data-count="30" data-suffix="+">30+</div>
-          <div class="stat-card__label">Logistics Partners</div>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
@@ -80,7 +60,7 @@ description: "UAE-based premium trading house specialising in import/export, B2B
         <div class="section-header">
           <p class="section-label">Get in Touch</p>
           <h2 class="section-title">
-            Start a<br />Partnership
+            Build<br />Possibilities
           </h2>
         </div>
         <p class="section-subtitle">

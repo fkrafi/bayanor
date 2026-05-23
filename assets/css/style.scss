@@ -725,9 +725,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .about__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: var(--space-16);
   align-items: start;
+}
+
+.about__text {
+  width: 100%;
 }
 
 .about__text .section-subtitle {

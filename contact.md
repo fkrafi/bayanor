@@ -97,14 +97,19 @@ permalink: /contact/
           </div>
 
           <div class="form-group">
-            <label class="form-label" for="contact-category">Product Category</label>
+            <label class="form-label" for="contact-category">Business Activity</label>
             <select class="form-select" id="contact-category" name="category">
-              <option value="" disabled selected>Select a category</option>
-              <option value="baby-lifestyle">Baby &amp; Lifestyle</option>
-              <option value="home-living">Home &amp; Living</option>
-              <option value="decorative-gifts">Decorative &amp; Gift Items</option>
-              <option value="cleaning-laundry">Cleaning &amp; Laundry Essentials</option>
-              <option value="general-trading">General Trading Solutions</option>
+              <option value="" disabled selected>Select a business activity</option>
+              <option value="ecommerce">E-Commerce</option>
+              <option value="ecommerce-social-media">E-Commerce Through Social Media</option>
+              <option value="general-trading">General Trading</option>
+              <option value="general-trading-import-export">General Trading Import &amp; Export</option>
+              <option value="human-resources-consultancy">Human Resources Consultancy</option>
+              <option value="events-organizing-managing">Events Organizing &amp; Managing</option>
+              <option value="software-development-services">Software Development Services</option>
+              <option value="innovation-startup">Innovation Startup</option>
+              <option value="branding-services">Branding Services</option>
+              <option value="foodstuff-trading-import-export">Foodstuff Trading Import &amp; Export</option>
               <option value="other">Other</option>
             </select>
           </div>

@@ -28,7 +28,7 @@ description: "UAE-based premium trading house specialising in import/export, B2B
           BAYANOR is a Dubai-based premium trading company connecting global suppliers with regional and international markets. We combine strategic Middle Eastern positioning with rigorous quality standards to deliver reliable B2B distribution at scale.
         </p>
         <p class="section-subtitle reveal-fade" data-delay="200">
-          From infant care to home living, our curated product portfolio reflects our commitment to quality, comfort, and contemporary lifestyle.
+          From e-commerce and general trading to software, consulting, and events, our licensed business activities are designed to support modern commercial growth.
         </p>
 
         <div class="about__values reveal-fade" data-delay="280">
@@ -63,8 +63,8 @@ description: "UAE-based premium trading house specialising in import/export, B2B
           <div class="stat-card__label">Global Suppliers</div>
         </div>
         <div class="stat-card">
-          <div class="stat-card__number" data-count="5">5</div>
-          <div class="stat-card__label">Product Categories</div>
+          <div class="stat-card__number" data-count="10">10</div>
+          <div class="stat-card__label">Business Activities</div>
         </div>
         <div class="stat-card">
           <div class="stat-card__number" data-count="20" data-suffix="+">20+</div>
@@ -88,11 +88,11 @@ description: "UAE-based premium trading house specialising in import/export, B2B
   <div class="container">
     <div class="section-header section-header--center">
       <p class="section-label reveal-fade">Our Portfolio</p>
-      <h2 class="section-title reveal-fade" data-delay="80">Featured Products</h2>
+      <h2 class="section-title reveal-fade" data-delay="80">Business Activities</h2>
       <p class="section-subtitle reveal-fade" data-delay="160">
-        Explore our premium product range for global trade and B2B excellence.
+        Explore our licensed business activities for global trade and B2B excellence.
       </p>
-      <a href="{{ site.baseurl }}/products/" class="btn btn--gold btn--lg reveal-fade" data-delay="240">View All Products</a>
+      <a href="{{ site.baseurl }}/products/" class="btn btn--gold btn--lg reveal-fade" data-delay="240">View All Activities</a>
     </div>
   </div>
 </section>

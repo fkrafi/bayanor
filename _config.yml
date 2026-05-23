@@ -48,10 +48,6 @@ exclude:
 nav_links:
   - title: "Home"
     url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Business Activities"
-    url: "/products/"
   - title: "Contact"
     url: "/contact/"
 

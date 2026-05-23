@@ -509,13 +509,6 @@ h1, h2, h3, h4, h5, h6 {
   background: radial-gradient(circle at 50% -10%, rgba(181, 155, 106, 0.18) 0%, rgba(181, 155, 106, 0.05) 36%, #F1F0EC 72%);
 }
 
-.hero__logo {
-  width: clamp(96px, 13vw, 140px);
-  border-radius: 0.8rem;
-  margin: 0 auto 1.2rem;
-  box-shadow: 0 0 0 1px var(--border-color), 0 10px 30px rgba(0, 0, 0, 0.08);
-}
-
 .hero__pattern {
   position: absolute;
   inset: 0;

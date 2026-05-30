@@ -783,7 +783,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: flex-start;
   gap: var(--space-3);
   width: 100%;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   overflow: hidden;
 }
 
@@ -1453,6 +1453,34 @@ h1, h2, h3, h4, h5, h6 {
 /* ============================================================
    14. Back to Top Button
    ============================================================ */
+#whatsapp-chat {
+  position: fixed;
+  bottom: calc(var(--space-8) + 104px);
+  right: var(--space-8);
+  width: 44px;
+  height: 44px;
+  background: #25D366;
+  border: 1px solid rgba(37, 211, 102, 0.8);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  transition: all var(--transition-base);
+  z-index: 500;
+
+  &:hover {
+    background: #1EBE59;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(37, 211, 102, 0.35);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-white);
+    outline-offset: 3px;
+  }
+}
+
 #back-to-top {
   position: fixed;
   bottom: calc(var(--space-8) + 52px);
@@ -1772,6 +1800,11 @@ h1, h2, h3, h4, h5, h6 {
 
   #back-to-top {
     bottom: calc(var(--space-4) + 52px);
+    right: var(--space-4);
+  }
+
+  #whatsapp-chat {
+    bottom: calc(var(--space-4) + 108px);
     right: var(--space-4);
   }
 

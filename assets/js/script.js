@@ -137,7 +137,7 @@
   ============================================================ */
   (function initStaggerChildren() {
     const grids = document.querySelectorAll(
-      '.about__stats, .footer__grid'
+      '.about__stats'
     );
 
     grids.forEach(function (grid) {

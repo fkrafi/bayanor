@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "BAYANOR | One Vision, Endless Possibilities"
-description: "UAE-based premium trading house delivering one clear vision through licensed business activities across trade, consulting, software, and innovation services."
+title: "One Vision, Endless Possibilities"
+description: "BAYANOR is a Dubai-based B2B trading company delivering import and export services, digital commerce operations, software services, branding, and business consultancy across licensed activities in the UAE."
 ---
 
 <!-- ============================================================
@@ -25,10 +25,13 @@ description: "UAE-based premium trading house delivering one clear vision throug
           </h2>
         </div>
         <p class="section-subtitle reveal-fade" data-delay="160">
-          BAYANOR is a Dubai-based trading company focused on licensed commercial activities that support modern business growth across digital commerce, trade services, consulting, and innovation.
+          BAYANOR is a Dubai-based B2B trading company built to help brands, distributors, and suppliers grow through reliable sourcing, structured trade operations, and clearly licensed commercial services.
         </p>
         <p class="section-subtitle reveal-fade" data-delay="200">
-          Our operating model is built around clearly defined business activities, enabling clients and partners to engage the right service line with confidence and speed.
+          Our activity portfolio covers e-commerce and social commerce enablement, general trading and import/export, human resources consultancy, events management, software development, innovation support, branding, and foodstuff trading. Each service line is delivered with a practical, compliance-first approach designed for speed, continuity, and long-term partnerships.
+        </p>
+        <p class="section-subtitle reveal-fade" data-delay="240">
+          We work as an execution-focused partner, helping clients reduce operational friction, access dependable supply channels, and launch market-ready initiatives with measurable commercial outcomes.
         </p>
 
         <div class="about__values reveal-fade" data-delay="280">

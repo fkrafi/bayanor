@@ -8,7 +8,7 @@
   <!-- Primary Meta -->
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta name="keywords" content="UAE trading company, global trade, import export UAE, B2B distribution, premium trading, BAYANOR" />
+  <meta name="keywords" content="Dubai trading company, UAE import export, B2B trading services, e-commerce UAE, social commerce, general trading, business consultancy Dubai, BAYANOR" />
   <meta name="author" content="{{ site.author.name }}" />
   <meta name="robots" content="index, follow" />
 
@@ -17,15 +17,17 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/logo.jpeg" />
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}" />
+  <meta property="og:image:alt" content="{{ site.title }} — {{ site.tagline }}" />
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:locale" content="en_US" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ site.title }} | {{ site.tagline }}" />
-  <meta name="twitter:description" content="{{ site.description }}" />
-  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/logo.jpeg" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}" />
+  <meta name="twitter:image:alt" content="{{ site.title }} — {{ site.tagline }}" />
 
   <!-- Canonical -->
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
@@ -52,6 +54,24 @@
 
   <!-- Jekyll SEO Tag -->
   {% seo %}
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}{{ site.baseurl }}",
+      "logo": "{{ site.url }}{{ site.baseurl }}{{ site.logo }}",
+      "description": "{{ site.description }}",
+      "email": "{{ site.author.email }}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dubai",
+        "addressCountry": "AE"
+      }
+    }
+  </script>
 </head>
 <body>
 

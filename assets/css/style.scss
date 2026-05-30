@@ -794,13 +794,13 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   border: 1px solid var(--border-color);
   border-radius: 10px 10px 0 0;
-  filter: none;
-  transition: none;
+  filter: grayscale(100%) sepia(40%) hue-rotate(345deg) saturate(130%) brightness(0.95);
+  transition: transform var(--transition-base), filter var(--transition-base);
 }
 
 .about__value-item:hover .about__value-image {
-  transform: none;
-  filter: none;
+  transform: scale(1.03);
+  filter: grayscale(0%) sepia(0%) hue-rotate(0deg) saturate(1) brightness(1);
 }
 
 .about__value-title {

@@ -2,13 +2,13 @@
   slug: ecommerce
   short_description: Electronic buying and selling of products over the internet.
   description: The activity of electronically buying or selling products on online services or over the internet.
-  image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=360&fit=crop
+  image: https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=600&h=360&fit=crop
 
 - name: E-Commerce Through Social Media
   slug: ecommerce-social-media
   short_description: E-commerce operations through social media channels under an existing license.
   description: Includes businesses that wish to operate an e-commerce social media account for their existing commercial license.
-  image: https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=360&fit=crop
+  image: https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=360&fit=crop
 
 - name: General Trading
   slug: general-trading

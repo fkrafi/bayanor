@@ -124,7 +124,7 @@ description: "BAYANOR is a Dubai-based B2B trading company delivering import and
       <div class="contact__form reveal-slide-right">
         <p class="contact__form-title">Business Enquiry Form</p>
 
-        <form id="contact-form" novalidate action="https://formspree.io/f/your-form-id" method="POST">
+        <form id="contact-form" novalidate action="https://docs.google.com/forms/d/e/1FAIpQLSe3sE8ux5PqRNOTzOwbWBAl57n67jsZY512Y7D6-OKOFMnDSw/formResponse" method="POST">
           <!-- Honeypot for spam prevention -->
           <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
 
@@ -151,21 +151,8 @@ description: "BAYANOR is a Dubai-based B2B trading company delivering import and
           </div>
 
           <div class="form-group">
-            <label class="form-label" for="contact-category">Business Activity</label>
-            <select class="form-select" id="contact-category" name="category">
-              <option value="" disabled selected>Select a business activity</option>
-              <option value="ecommerce">E-Commerce</option>
-              <option value="ecommerce-social-media">E-Commerce Through Social Media</option>
-              <option value="general-trading">General Trading</option>
-              <option value="general-trading-import-export">General Trading Import &amp; Export</option>
-              <option value="human-resources-consultancy">Human Resources Consultancy</option>
-              <option value="events-organizing-managing">Events Organizing &amp; Managing</option>
-              <option value="software-development-services">Software Development Services</option>
-              <option value="innovation-startup">Innovation Startup</option>
-              <option value="branding-services">Branding Services</option>
-              <option value="foodstuff-trading-import-export">Foodstuff Trading Import &amp; Export</option>
-              <option value="other">Other</option>
-            </select>
+            <label class="form-label" for="contact-subject">Subject</label>
+            <input class="form-input" type="text" id="contact-subject" name="subject" placeholder="Enter enquiry subject" autocomplete="off" />
           </div>
 
           <div class="form-group">

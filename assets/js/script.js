@@ -266,18 +266,53 @@
         submitBtn.disabled = true;
       }
 
-      // Simulate submission (replace with real endpoint / Formspree)
-      setTimeout(function () {
-        showStatus(
-          'Thank you. Your enquiry has been received. Our team will be in touch within 24 hours.',
-          'success'
-        );
-        form.reset();
+      const companyEl  = form.querySelector('[name="company"]');
+      const phoneEl    = form.querySelector('[name="phone"]');
+      const subjectEl  = form.querySelector('[name="subject"]');
+      const endpoint = (form.getAttribute('action') || '').trim();
+
+      // Google Forms field mapping (provided by user)
+      const payload = new URLSearchParams();
+      payload.append('entry.72410837', (nameEl && nameEl.value ? nameEl.value : '').trim());
+      payload.append('entry.1789901064', (companyEl && companyEl.value ? companyEl.value : '').trim());
+      payload.append('entry.1034521306', (emailEl && emailEl.value ? emailEl.value : '').trim());
+      payload.append('entry.1851932143', (phoneEl && phoneEl.value ? phoneEl.value : '').trim());
+      payload.append('entry.484836385', (subjectEl && subjectEl.value ? subjectEl.value : '').trim());
+      payload.append('entry.903920782', (messageEl && messageEl.value ? messageEl.value : '').trim());
+
+      if (!endpoint.includes('docs.google.com/forms')) {
+        showStatus('Please set a valid Google Forms endpoint in the form action URL.', 'error');
         if (submitBtn) {
           submitBtn.textContent = origText;
           submitBtn.disabled = false;
         }
-      }, 1200);
+        return;
+      }
+
+      fetch(endpoint, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+        },
+        body: payload.toString(),
+      })
+        .then(function () {
+          showStatus(
+            'Thank you. Your enquiry has been received. Our team will be in touch within 24 hours.',
+            'success'
+          );
+          form.reset();
+        })
+        .catch(function () {
+          showStatus('Submission failed. Please try again.', 'error');
+        })
+        .finally(function () {
+          if (submitBtn) {
+            submitBtn.textContent = origText;
+            submitBtn.disabled = false;
+          }
+        });
     });
   })();
 

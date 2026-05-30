@@ -794,13 +794,13 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   border: 1px solid var(--border-color);
   border-radius: 10px 10px 0 0;
-  filter: grayscale(20%) saturate(0.95) contrast(1.02);
-  transition: transform var(--transition-base), filter var(--transition-base);
+  filter: none;
+  transition: none;
 }
 
 .about__value-item:hover .about__value-image {
-  transform: scale(1.03);
-  filter: grayscale(0%) saturate(1.15) contrast(1.05);
+  transform: none;
+  filter: none;
 }
 
 .about__value-title {
@@ -1581,7 +1581,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer__brand-desc {
   font-size: 0.875rem;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   line-height: 1.7;
   margin-bottom: var(--space-6);
   max-width: 300px;
@@ -1627,7 +1627,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer__nav-link {
   font-size: 0.82rem;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   transition: color var(--transition-fast);
   &:hover { color: var(--color-gold); }
 }
@@ -1643,7 +1643,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: flex-start;
   gap: var(--space-3);
   font-size: 0.82rem;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   line-height: 1.5;
 
   svg { flex-shrink: 0; margin-top: 2px; color: var(--color-gold); }

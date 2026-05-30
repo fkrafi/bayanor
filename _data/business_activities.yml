@@ -1,59 +1,53 @@
-- name: E-Commerce
+- name: E-Commerce & Social Commerce
   slug: ecommerce
-  short_description: Electronic buying and selling of products over the internet.
-  description: The activity of electronically buying or selling products on online services or over the internet.
-  image: https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=600&h=360&fit=crop
-
-- name: E-Commerce Through Social Media
-  slug: ecommerce-social-media
-  short_description: E-commerce operations through social media channels under an existing license.
-  description: Includes businesses that wish to operate an e-commerce social media account for their existing commercial license.
-  image: https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=360&fit=crop
+  short_description: Electronic buying and selling of products online, including social media channels.
+  description: The activity of electronically buying or selling products on online services or over the internet, including businesses operating e-commerce accounts through social media channels under an existing commercial license.
+  image: assets/images/activities/ecommerce-social-media.jpg
 
 - name: General Trading
   slug: general-trading
   short_description: Importing, trading, and re-exporting approved goods and products.
   description: Includes commercial firms engaged in importing, trading, and re-exporting goods and products in trade categories, excluding activities that require special approvals.
-  image: https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=360&fit=crop
+  image: assets/images/activities/general-trading.jpg
 
 - name: General Trading Import & Export
   slug: general-trading-import-export
   short_description: Trading all goods except restricted or specially controlled categories.
   description: Trading all types of goods and products except restricted categories such as gold and diamonds, cosmetics, chemicals, oil and gas, tobacco, food and beverages, fertilizers and pesticides, security equipment, and medical equipment and medicines.
-  image: https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&h=360&fit=crop
+  image: assets/images/activities/general-trading-import-export.jpg
 
 - name: Human Resources Consultancy
   slug: human-resources-consultancy
   short_description: Human capital advisory, organizational studies, and workforce performance support.
   description: Preparing studies and consultations for planning human resources and manpower, diagnosing functional, technical, psychological, and behavioral workplace issues, and recommending solutions, reports, and professional training programs.
-  image: https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=360&fit=crop
+  image: assets/images/activities/human-resources-consultancy.jpg
 
 - name: Events Organizing & Managing
   slug: events-organizing-managing
   short_description: End-to-end event planning, operations, and execution management.
   description: Organization and management of events including corporate events, marketing programs, general meetings, team building, gala dinners, launches, award ceremonies, press events, children parties, and hair and makeup shows. Required permits from competent authorities apply.
-  image: https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=360&fit=crop
+  image: assets/images/activities/events-organizing-managing.jpg
 
 - name: Software Development Services
   slug: software-development-services
   short_description: Software design, implementation, operation, and maintenance services.
   description: Includes firms specialized in software systems design, implementation, operation, and maintenance based on user requirements, including smartphone and mobile application software.
-  image: https://images.unsplash.com/photo-1518773553398-650c184e0bb3?w=600&h=360&fit=crop
+  image: assets/images/activities/software-development-services.jpg
 
 - name: Innovation Startup
   slug: innovation-startup
   short_description: Development and launch of novel products, services, and technologies.
   description: Focused on creating and commercializing innovative products, services, or technologies to solve unmet needs through creative and disruptive approaches.
-  image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=360&fit=crop
+  image: assets/images/activities/innovation-startup.jpg
 
 - name: Branding Services
   slug: branding-services
   short_description: Brand strategy and corporate identity development.
   description: Includes firms engaged in branding and corporate identity services, covering brand strategy, visual identity, naming, logos, and slogans for internal and external stakeholder communication.
-  image: https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=360&fit=crop
+  image: assets/images/activities/branding-services.jpg
 
 - name: Foodstuff Trading Import & Export
   slug: foodstuff-trading-import-export
   short_description: Wholesale trade of canned and preserved food products.
   description: Trading in canned and preserved food wholesale, including fruits, vegetables, meat, and other plant and animal food products preserved in sealed metal cans and fit for consumption.
-  image: https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&h=360&fit=crop
+  image: assets/images/activities/foodstuff-trading-import-export.jpg

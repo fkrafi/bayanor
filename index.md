@@ -38,7 +38,7 @@ description: "BAYANOR is a Dubai-based B2B trading company delivering import and
           {% for activity in site.data.business_activities %}
           <div class="about__value-item">
             <div class="about__value-top">
-              <img src="{{ activity.image }}" alt="{{ activity.name }}" class="about__value-image" loading="lazy" />
+              <img src="{{ activity.image | relative_url }}" alt="{{ activity.name }}" class="about__value-image" loading="lazy" />
             </div>
             <p class="about__value-title">{{ activity.name }}</p>
             <p class="about__value-text">{{ activity.short_description }}</p>

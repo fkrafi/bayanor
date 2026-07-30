@@ -5,7 +5,7 @@ title: "BAYANOR"
 tagline: "One Vision, Endless Possibilities"
 description: "UAE-based premium trading house specializing in import/export, B2B distribution, and licensed business activities across commerce, consulting, software, and trade services."
 url: "https://fkrafi.github.io"
-baseurl: "/bayanor"
+baseurl: "/"
 lang: "en"
 
 # Author / Company

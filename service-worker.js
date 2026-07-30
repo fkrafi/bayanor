@@ -5,10 +5,10 @@ permalink: /service-worker.js
 
 const CACHE_NAME = 'bayanor-v4';
 const urlsToCache = [
-  '{{ site.baseurl }}/',
-  '{{ site.baseurl }}/manifest.json',
-  '{{ site.baseurl }}/assets/css/style.css',
-  '{{ site.baseurl }}/assets/js/script.js'
+  '{{ "/" | relative_url }}',
+  '{{ "/manifest.json" | relative_url }}',
+  '{{ "/assets/css/style.css" | relative_url }}',
+  '{{ "/assets/js/script.js" | relative_url }}'
 ];
 
 // Install event — cache resources
@@ -63,7 +63,7 @@ self.addEventListener('fetch', (event) => {
           });
           return response;
         })
-        .catch(() => caches.match(event.request).then((cached) => cached || caches.match('{{ site.baseurl }}/')))
+        .catch(() => caches.match(event.request).then((cached) => cached || caches.match('{{ "/" | relative_url }}')))
     );
     return;
   }
@@ -87,7 +87,7 @@ self.addEventListener('fetch', (event) => {
         return response;
       }).catch(() => {
         // Offline fallback — could serve a generic offline page here
-        return caches.match('{{ site.baseurl }}/');
+        return caches.match('{{ "/" | relative_url }}');
       });
     })
   );

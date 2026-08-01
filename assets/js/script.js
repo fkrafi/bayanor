@@ -273,12 +273,15 @@
 
       // Google Forms field mapping (provided by user)
       const payload = new URLSearchParams();
-      payload.append('entry.72410837', (nameEl && nameEl.value ? nameEl.value : '').trim());
+      payload.append('entry.724108371', (nameEl && nameEl.value ? nameEl.value : '').trim());
       payload.append('entry.1789901064', (companyEl && companyEl.value ? companyEl.value : '').trim());
       payload.append('entry.1034521306', (emailEl && emailEl.value ? emailEl.value : '').trim());
       payload.append('entry.1851932143', (phoneEl && phoneEl.value ? phoneEl.value : '').trim());
       payload.append('entry.484836385', (subjectEl && subjectEl.value ? subjectEl.value : '').trim());
       payload.append('entry.903920782', (messageEl && messageEl.value ? messageEl.value : '').trim());
+      payload.append('fvv', '1');
+      payload.append('pageHistory', '0');
+      payload.append('submit', 'Submit');
 
       if (!endpoint.includes('docs.google.com/forms')) {
         showStatus('Please set a valid Google Forms endpoint in the form action URL.', 'error');

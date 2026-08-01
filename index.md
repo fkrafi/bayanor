@@ -69,7 +69,10 @@ description: "BAYANOR is a Dubai-based B2B trading company delivering import and
         <p class="section-subtitle">
           Whether you are a buyer, distributor, or supplier — we welcome serious B2B enquiries. Our team responds within 24 business hours.
         </p>
+      </div>
 
+      <!-- Contact Links -->
+      <div class="contact__form reveal-slide-right">
         <div class="contact__info-cards">
           <div class="contact__info-card">
             <div class="contact__info-icon" aria-hidden="true">
@@ -118,53 +121,6 @@ description: "BAYANOR is a Dubai-based B2B trading company delivering import and
             </a>
           </div>
         </div>
-      </div>
-
-      <!-- Form -->
-      <div class="contact__form reveal-slide-right">
-        <p class="contact__form-title">Business Enquiry Form</p>
-
-        <form id="contact-form" novalidate action="https://docs.google.com/forms/d/e/1FAIpQLSe3sE8ux5PqRNOTzOwbWBAl57n67jsZY512Y7D6-OKOFMnDSw/formResponse" method="POST">
-          <!-- Honeypot for spam prevention -->
-          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
-
-          <div class="form-row">
-            <div class="form-group">
-              <label class="form-label" for="contact-name">Full Name <span aria-hidden="true">*</span></label>
-              <input class="form-input" type="text" id="contact-name" name="name" placeholder="Your full name" required autocomplete="name" />
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="contact-company">Company</label>
-              <input class="form-input" type="text" id="contact-company" name="company" placeholder="Your company" autocomplete="organization" />
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label class="form-label" for="contact-email">Email Address <span aria-hidden="true">*</span></label>
-              <input class="form-input" type="email" id="contact-email" name="email" placeholder="your@email.com" required autocomplete="email" />
-            </div>
-            <div class="form-group">
-              <label class="form-label" for="contact-phone">Phone / WhatsApp</label>
-              <input class="form-input" type="tel" id="contact-phone" name="phone" placeholder="+971 XX XXX XXXX" autocomplete="tel" />
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="contact-subject">Subject</label>
-            <input class="form-input" type="text" id="contact-subject" name="subject" placeholder="Enter enquiry subject" autocomplete="off" />
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="contact-message">Message <span aria-hidden="true">*</span></label>
-            <textarea class="form-textarea" id="contact-message" name="message" placeholder="Tell us about your business needs, order volumes, or enquiry…" required rows="5"></textarea>
-          </div>
-
-          <div class="form-submit">
-            <button type="submit" class="btn btn--gold btn--full">Send Enquiry</button>
-          </div>
-          <p class="form-note">We respond to all B2B enquiries within 24 business hours.</p>
-        </form>
       </div>
 
     </div>

@@ -72,7 +72,7 @@ description: "BAYANOR is a Dubai-based B2B trading company delivering import and
       </div>
 
       <!-- Contact Links -->
-      <div class="contact__form reveal-slide-right">
+      <div class="contact__info reveal-slide-right">
         <div class="contact__info-cards">
           <div class="contact__info-card">
             <div class="contact__info-icon" aria-hidden="true">

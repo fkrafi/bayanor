@@ -95,6 +95,11 @@ description: "BAYANOR is a Dubai-based B2B trading company delivering import and
           </div>
 
           <div class="contact__social" aria-label="Social media links">
+            <a href="https://x.com/bayanorae" class="contact__social-link" aria-label="X" rel="noopener noreferrer" target="_blank">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M18.244 2H21l-6.57 7.51L22 22h-6.406l-5.02-6.576L4.83 22H2.073l7.025-8.03L2 2h6.568l4.537 5.954L18.244 2zm-.967 18.35h1.527L7.739 3.57H6.1l11.177 16.78z"/>
+              </svg>
+            </a>
             <a href="#" class="contact__social-link" aria-label="LinkedIn" rel="noopener noreferrer">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
@@ -112,11 +117,6 @@ description: "BAYANOR is a Dubai-based B2B trading company delivering import and
             <a href="#" class="contact__social-link" aria-label="Facebook" rel="noopener noreferrer">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-              </svg>
-            </a>
-            <a href="https://wa.me/971000000000" class="contact__social-link" aria-label="WhatsApp" rel="noopener noreferrer">
-              <svg width="18" height="18" viewBox="0 0 448 512" fill="currentColor" aria-hidden="true">
-                <path d="M380.9 97.1C339-6.1 216.5-32.8 119.1 8.6 24.5 49-24.8 151.1 11.5 244.8c15.7 40.6 9.4 72.8-11.5 129.6-4.7 12.9 6.5 26.2 20.1 23.8l132.9-23.4c37.6 20.7 71.7 24.6 112.7 17.6 98.4-16.6 171.7-103.5 166.6-203.6-1.8-35.5-11.7-64.5-31.4-91.7zM224 338.8c-29 0-57.4-7.8-82.3-22.5l-5.9-3.5-78.9 13.9 13.9-76.9-3.8-6.1c-40.8-64.7-21.4-150.3 43.3-191.1 21.8-13.8 47-21 72.8-21 73.3 0 132.9 59.6 132.9 132.9S297.3 338.8 224 338.8zm73-99.6c-4-2-23.7-11.7-27.4-13-3.7-1.3-6.4-2-9 2-2.7 4-10.4 13-12.7 15.7-2.3 2.7-4.7 3-8.7 1-23.7-11.8-39.2-21.1-54.9-47.7-4.2-7.2 4.2-6.7 12-22.2 1.3-2.7.7-5-0.3-7-1-2-9-21.7-12.3-29.8-3.2-7.7-6.5-6.7-9-6.9h-7.7c-2.7 0-7 1-10.7 5-3.7 4-14 13.7-14 33.4 0 19.7 14.3 38.7 16.3 41.4 2 2.7 28.1 42.9 68.1 60.1 9.5 4.1 16.9 6.5 22.7 8.3 9.5 3 18.1 2.6 24.9 1.6 7.6-1.1 23.7-9.7 27.1-19 3.4-9.3 3.4-17.4 2.4-19-.9-1.7-3.6-2.7-7.6-4.7z"/>
               </svg>
             </a>
           </div>

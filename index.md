@@ -90,7 +90,7 @@ description: "BAYANOR is a Dubai-based B2B trading company delivering import and
             </div>
             <div>
               <p class="contact__info-label">Email</p>
-              <p class="contact__info-value"><a href="mailto:info@bayanor.com">info@bayanor.com</a></p>
+              <p class="contact__info-value"><a href="mailto:info@bayanor.trade">info@bayanor.trade</a></p>
             </div>
           </div>
 
